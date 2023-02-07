@@ -1,5 +1,5 @@
-
 import "./shop.css";
+import { PRODUCTS } from "../../products";
 
 export const Shop = () => {
   return (
