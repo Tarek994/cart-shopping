@@ -1,8 +1,9 @@
 import "./shop.css";
 import { PRODUCTS } from "../../products";
-import Product from "./product";
+import Product from "./product"
 
-export const Shop = () => {
+
+ const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
