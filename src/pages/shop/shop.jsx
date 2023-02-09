@@ -7,7 +7,7 @@ import Product from "./product"
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>PedroTech Shop</h1>
+        <h1>TAREK's zoon</h1>
       </div>
 
       <div className="products">
