@@ -6,7 +6,7 @@ const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>TAREK's zoon</h1>
+        <h1>TAREK PRESS</h1>
       </div>
 
       <div className="products">
