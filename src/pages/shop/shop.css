@@ -1,3 +1,8 @@
+.shop {
+  max-width: 1400px;
+  margin: auto;
+}
+
 .shopTitle {
   margin-top: 100px;
   text-align: center;
