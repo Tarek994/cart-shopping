@@ -1,9 +1,8 @@
 import "./shop.css";
 import { PRODUCTS } from "../../products";
-import Product from "./product"
+import Product from "./product";
 
-
- const Shop = () => {
+const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
@@ -11,10 +10,9 @@ import Product from "./product"
       </div>
 
       <div className="products">
-        {PRODUCTS.map((product)=> (
-          <Product data={product}/>
+        {PRODUCTS.map((product) => (
+          <Product data={product} />
         ))}
-        
       </div>
     </div>
   );
