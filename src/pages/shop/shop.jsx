@@ -1,20 +1,18 @@
 import "./shop.css";
 import { PRODUCTS } from "../../products";
-import Product from "./product"
+import Product from "./product";
 
-
- const Shop = () => {
+const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>TAREK's zoon</h1>
+        <h1>TAREK PRESS</h1>
       </div>
 
       <div className="products">
-        {PRODUCTS.map((product)=> (
-          <Product data={product}/>
+        {PRODUCTS.map((product) => (
+          <Product data={product} />
         ))}
-        
       </div>
     </div>
   );
